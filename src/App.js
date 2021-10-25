@@ -1,7 +1,8 @@
+import Launches from "./components/Launches";
+
 function App() {
   return (
-    <div>
-    </div>
+    <Launches limit={5}/>
   );
 }
 
